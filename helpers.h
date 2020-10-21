@@ -12,7 +12,7 @@
 #define INODE_OFFSET 21 /* offset from 'address' to 'inode' in /proc/pid/maps */
 
 #include <netinet/in.h>
-#include <z3.h>
+#include <stdbool.h>
 
 /* enum for option flag type */
 enum flag_type {
