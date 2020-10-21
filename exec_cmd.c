@@ -158,6 +158,8 @@ int main(int argc, char **argv) {
         } else {
             printf("%s - could not execute %s - Error: %s\n",
                    get_time(), file_args, strerror(buf));
+            close(logFile);
+            exit(EXIT_SUCCESS);
         }
         close(pipe_fds[0]);
 
@@ -204,7 +206,6 @@ int main(int argc, char **argv) {
         }
 
         close(logFile);
-
         exit(EXIT_SUCCESS);
     }
 }

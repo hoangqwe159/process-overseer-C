@@ -836,7 +836,7 @@ int get_child_pid(pid_t pid) {
     fgets(str_pid, sizeof(str_pid), cmd);
     int child_pid;
     if (!(child_pid = strtol(str_pid, NULL, BASE10))) {
-        fprintf(stderr, "No child process found!\n");
+        pclose(cmd);
         return 0;
     }
     pclose(cmd);
