@@ -7,14 +7,14 @@ overseer <port>
 The usage of the controller is shown below.
 controller <address> <port> {[-o out_file] [-log log_file] [-t seconds]
 <file> [arg...] | mem [pid] | memkill <percent>}
-• < > angle brackets indicate required arguments.
-• [ ] brackets indicate optional arguments.
-• ... ellipses indicate an arbitrary quantity of arguments.
-• { } braces indicate required, mutually exclusive options, separated by
-pipes |. That is, one and only one of the following must be chosen:
-– [-o out_file] [-log log_file] [-t seconds] <file> [arg...]
-– mem [pid]
-– memkill <percent>
+  • < > angle brackets indicate required arguments.
+  • [ ] brackets indicate optional arguments.
+  • ... ellipses indicate an arbitrary quantity of arguments.
+  • { } braces indicate required, mutually exclusive options, separated by
+    pipes |. That is, one and only one of the following must be chosen:
+    – [-o out_file] [-log log_file] [-t seconds] <file> [arg...]
+    – mem [pid]
+    – memkill <percent>
 
 Demo videos: 
   - Part A: https://youtu.be/ObVm0jOU1BM
@@ -23,3 +23,5 @@ Demo videos:
   - Part D: https://youtu.be/nY-qG9dA39c
   - Part E: https://youtu.be/1zT1GH6T8po
   - CMake: https://youtu.be/ObVm0jOU1BM
+  
+  Run `make` to make executable files, `make clean` to clean files
