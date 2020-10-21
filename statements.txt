@@ -1,0 +1,35 @@
+-------- Statement of Completenesss --------
+
+Fill the below for each section with C for complete and P for partially complete.
+For example: A[C]
+
+A [C]
+B [C]
+C [C]
+D [C]
+E [C]
+
+Comments: perfectly completed
+
+--------------------------------------------
+
+
+-------- Statement of Contribution --------
+
+Ignore this if in a group of 1.
+
+Fill the below with your student IDs, names, and contribution description.
+
+ID: n10329935
+name: Do Viet Hoang
+contribution: A, C, E
+
+ID: n10327622
+name: Duc Hien Nguyen
+contribution: B, D, Makefile
+
+Comments: nice
+
+--------------------------------------------
+
+
